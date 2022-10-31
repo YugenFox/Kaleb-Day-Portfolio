@@ -3,6 +3,7 @@
 /* for flags */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
+
 /*
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
@@ -3242,6 +3243,23 @@ input, select, textarea {
 
 
 
+/* CUSTOM */
+.headshotImage{
+	/* aspect-ratio: 1 / 1.5; */
+	width: 200px;
+	height: 220px;
+	/* width: 15vw; */
+	background: tomato;
+	/* height: 40vh; */
+	border-radius: 25px;
+	object-fit: cover;
+	/* clip: rect(0px,60px,200px,0px); */
+	/* object-position: 70% 15%; */
+	/* clip: rect(10px, 10px, 10px, 10px) */
+}
+/* end custom */
+
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3528,3 +3546,5 @@ input, select, textarea {
 			}
 
 	}
+
+
